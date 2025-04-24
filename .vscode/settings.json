@@ -1,0 +1,26 @@
+{
+    "importSort": {
+        ".js, .jsx": {
+            "style": "ascending"
+        },
+        "ts, .tsx": {
+            "style": "module",
+            "parser": "typescript"
+        }
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript, typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript react, typescript react]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    }
+}
