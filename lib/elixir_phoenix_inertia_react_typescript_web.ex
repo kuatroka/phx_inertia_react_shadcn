@@ -44,6 +44,7 @@ defmodule ElixirPhoenixInertiaReactTypescriptWeb do
 
       use Gettext, backend: ElixirPhoenixInertiaReactTypescriptWeb.Gettext
 
+      import Inertia.Controller
       import Plug.Conn
 
       unquote(verified_routes())
@@ -70,6 +71,8 @@ defmodule ElixirPhoenixInertiaReactTypescriptWeb do
   def html do
     quote do
       use Phoenix.Component
+
+      import Inertia.HTML
 
       # Import convenience functions from controllers
       import Phoenix.Controller,
