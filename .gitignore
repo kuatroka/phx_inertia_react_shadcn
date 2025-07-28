@@ -39,3 +39,16 @@ npm-debug.log
 *.db
 *.db-*
 
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Bun
+bun.lockb
+
+# Elixir LS
+.elixir_ls/
+
+# BFG Repo-Cleaner
+..bfg-report/
+
